@@ -56,9 +56,9 @@ function main() {
 
   {
     const objLoader = new THREE.OBJLoader2();
-    objLoader.loadMtl('https://forjos.github.io/arcafe_lib/model/pizza3.mtl', null, (materials) => {
+    objLoader.loadMtl('https://arcafe.github.io/arcafe/model/pizza3.mtl', null, (materials) => {
       objLoader.setMaterials(materials);
-      objLoader.load('https://forjos.github.io/arcafe_lib/model/pizza3.obj', (event) => {
+      objLoader.load('https://arcafe.github.io/arcafe/model/pizza3.obj', (event) => {
         const root = event.detail.loaderRootNode;
         scene.add(root);
       });
@@ -153,9 +153,9 @@ function cake_model() {
 
   {
     const objLoader = new THREE.OBJLoader2();
-    objLoader.loadMtl('https://forjos.github.io/arcafe_lib/model/pizza3.mtl', null, (materials) => {
+    objLoader.loadMtl('https://arcafe.github.io/arcafe/model/pizza3.mtl', null, (materials) => {
       objLoader.setMaterials(materials);
-      objLoader.load('https://forjos.github.io/arcafe_lib/model/pizza3.obj', (event) => {
+      objLoader.load('https://arcafe.github.io/arcafe/model/pizza3.obj', (event) => {
         const root = event.detail.loaderRootNode;
         scene.add(root);
       });
